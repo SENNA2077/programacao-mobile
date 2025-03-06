@@ -1,0 +1,24 @@
+{
+  "name": "programacao-mobile",
+  "version": "1.0.0",
+  "description": "Repositório criado para as aulas teóricas e atividades práticas da disciplina.",
+  "main": "index.js",
+"scripts": {
+  "dev": "node index.js"
+},
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SENNA2077/programacao-mobile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SENNA2077/programacao-mobile/issues"
+  },
+  "homepage": "https://github.com/SENNA2077/programacao-mobile#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

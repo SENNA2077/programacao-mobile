@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View, StyleSheet, SafeAreaView} from "react-native";
 
 function AppBar(props) {
   return (
@@ -11,10 +11,10 @@ function AppBar(props) {
 
 function App() {
   return (
-    <View style={{flex: 1}}>
+    <SafeAreaView style={{flex: 1, paddingTop: 20}}>
       <AppBar titulo="Minha Aplicação React Native" />
       <View style={styles.container}></View>
-    </View>
+    </SafeAreaView>
   );
 }
 
