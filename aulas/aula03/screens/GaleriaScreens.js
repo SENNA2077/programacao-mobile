@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet } from "react-native";
 
-function GaleriaScreen() {
+function GaleriaScreens() {
   return (
     <View style={{ flex: 1 }}>
       <View style={styles.photo}>
@@ -38,4 +38,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default GaleriaScreen;
+export default GaleriaScreens;

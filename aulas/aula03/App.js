@@ -1,6 +1,7 @@
-import PerfilScreen from ".screens/PerfilScreen";
+import { View, Text, StyleSheet } from "react-native";
+import PerfilScreen from "./screens/PerfilScreen";
 import Flexbox from "./screens/Flexbox";
-import GaleriaScreen from "./screens/GaleriaScreen";
+import GaleriaScreens from "./screens/GaleriaScreens";
 import PadraoAndroid from "./screens/PadraoAndroid";
 import PadraoIOS from "./screens/PadraoIOS";
 

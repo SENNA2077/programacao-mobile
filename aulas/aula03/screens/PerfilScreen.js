@@ -44,3 +44,4 @@ const styles = StyleSheet.create({
     gap: 8
   }
 });
+export default PerfilScreen
