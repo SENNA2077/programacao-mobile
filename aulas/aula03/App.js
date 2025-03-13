@@ -1,12 +1,14 @@
-import { View } from "react-native";
+import PerfilScreen from ".screens/PerfilScreen";
+import Flexbox from "./screens/Flexbox";
+import GaleriaScreen from "./screens/GaleriaScreen";
+import PadraoAndroid from "./screens/PadraoAndroid";
+import PadraoIOS from "./screens/PadraoIOS";
 
 function App() {
   return (
-    <View style={{ flex: 1, backgroundColor: "white", flexDirection: "row" }}>
-      <View style= {{flex: 1, flexDirection:"space-evenly", align: "itens"}}></View>
-    
-    </View>
+    <PerfilScreen/>
   );
 }
 
 export default App;
+
