@@ -5,7 +5,7 @@ import DetailScreen from "./screens/DetailScreen";
 
 function App() {
 
-  return <ContactScreen/>;
+  return <RegisterScreen/>;
 }
 
 export default App;
